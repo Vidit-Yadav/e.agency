@@ -6,7 +6,60 @@ main = "cloudflare-worker.js"
 [assets]
 directory = "."
 binding = "ASSETS"
+run_worker_first = ["/_nuxt/*"]
 
 [[routes]]
 pattern = "growfast.agency/portfolio/e-agency/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/_nuxt/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/fonts/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/audio/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/basis/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/water/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/grass_text/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/meta/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/_vercel/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/api/*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/favicon.*"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/site.webmanifest"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/noise.jpg"
+zone_name = "growfast.agency"
+
+[[routes]]
+pattern = "growfast.agency/water_map.png"
 zone_name = "growfast.agency"
