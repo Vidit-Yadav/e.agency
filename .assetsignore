@@ -3,3 +3,4 @@
 graphify-out
 wrangler.toml
 cloudflare-worker.js
+.wrangler
