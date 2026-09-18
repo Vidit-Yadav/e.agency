@@ -1,0 +1,12 @@
+name = "e-agency-portfolio"
+compatibility_date = "2025-09-01"
+
+main = "cloudflare-worker.js"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+
+[[routes]]
+pattern = "growfast.agency/portfolio/e-agency/*"
+zone_name = "growfast.agency"
